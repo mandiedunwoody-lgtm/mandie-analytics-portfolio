@@ -2,6 +2,7 @@
 A portfolio showcasing SQL, analytics, dashboards, and documentation.
 
 KPI Definitions
+
 Total Customers  
 Count of unique customers in the dataset.
 
