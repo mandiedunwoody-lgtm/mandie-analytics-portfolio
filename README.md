@@ -2,12 +2,13 @@
 A portfolio showcasing SQL, analytics, dashboards, and documentation.
 
 
-  Project Overview
+   **Project Overview**
 
 This project analyzes customer behavior using SQL and Power BI. It includes data modeling, KPI development, and dashboard creation to demonstrate core analytics skills such as retention analysis, churn identification, and revenue insights.
 
 
-   Repository Structure
+   **Repository Structure**
+   
 - /data – Raw and cleaned datasets
 - /sql – Queries used for analysis and modeling
 - /powerbi – PBIX file and dashboard assets
@@ -15,14 +16,15 @@ This project analyzes customer behavior using SQL and Power BI. It includes data
 - README.md – Project summary and KPI definitions
   
 
-   Tools & Technologies
+   **Tools & Technologies**
+  
 - Power BI (data modeling, DAX, dashboard design)
 - SQL (joins, aggregations, business logic)
 - Excel / Google Sheets
 - GitHub for version control and documentation
 
 
-  KPI Definitions
+   **KPI Definitions**
 
 Total Customers  
 Count of unique customers in the dataset.
@@ -39,8 +41,10 @@ Returning Customers ÷ Total Customers.
 Churn Rate  
 Customers who purchased in the previous period but not in the current period.
 
+Average Revenue per Customer (ARPC)  
+Total revenue ÷ number of active customers.
 
-Data Model Overview
+**Data Model Overview**
 
 This project uses a simple star‑schema model to support customer analytics. The model includes:
 
@@ -53,14 +57,12 @@ Relationships:
 Customers (1) → Invoices (many)
 Date (1) → Invoices (many)
 
+
 A diagram of the model will be added once the Power BI dashboard is finalized.
 
 Dashboard Preview
 Screenshots coming soon.
 
-
-Average Revenue per Customer (ARPC)  
-Total revenue ÷ number of active customers.
 
 Customer Lifetime Value (simple)  
 ARPC × average retention duration.
