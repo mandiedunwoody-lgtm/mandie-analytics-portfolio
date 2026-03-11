@@ -44,7 +44,7 @@ Customers who purchased in the previous period but not in the current period.
 Average Revenue per Customer (ARPC)  
 Total revenue ÷ number of active customers.
 
-**Data Model Overview**
+   **Data Model Overview**
 
 This project uses a simple star‑schema model to support customer analytics. The model includes:
 
