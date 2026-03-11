@@ -3,6 +3,7 @@ A portfolio showcasing SQL, analytics, dashboards, and documentation.
 
 
   Project Overview
+
 This project analyzes customer behavior using SQL and Power BI. It includes data modeling, KPI development, and dashboard creation to demonstrate core analytics skills such as retention analysis, churn identification, and revenue insights.
 
 
