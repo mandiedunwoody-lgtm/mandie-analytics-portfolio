@@ -24,7 +24,7 @@ This project analyzes customer behavior using SQL and Power BI. It includes data
 - GitHub for version control and documentation
 
 
-   **KPI Definitions**
+**KPI Definitions**
 
 Total Customers  
 Count of unique customers in the dataset.
