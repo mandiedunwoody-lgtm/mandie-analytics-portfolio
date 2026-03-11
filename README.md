@@ -39,6 +39,26 @@ Returning Customers ÷ Total Customers.
 Churn Rate  
 Customers who purchased in the previous period but not in the current period.
 
+
+Data Model Overview
+
+This project uses a simple star‑schema model to support customer analytics. The model includes:
+
+Customers table – customer profiles and segmentation
+Invoices table – transaction‑level data including dates and revenue
+Date table – a full calendar table used for time‑intelligence and period comparisons
+
+Relationships:
+
+Customers (1) → Invoices (many)
+Date (1) → Invoices (many)
+
+A diagram of the model will be added once the Power BI dashboard is finalized.
+
+Dashboard Preview
+Screenshots coming soon.
+
+
 Average Revenue per Customer (ARPC)  
 Total revenue ÷ number of active customers.
 
