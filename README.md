@@ -79,3 +79,37 @@ Date (1) → Invoices (many)
 **Project Summary**
 
 This project demonstrates a full customer‑retention analysis workflow, combining SQL for data preparation and Power BI for modeling, DAX calculations, and interactive dashboard design. The final report highlights key customer metrics—including retention, churn, revenue behavior, and purchasing patterns—to support data‑driven decision‑making. This work showcases my ability to build clean data models, define meaningful KPIs, and design clear, modern dashboards that communicate insights effectively.
+
+
+**Skills Demonstrated**
+
+Data Modeling & Architecture
+-Designed a clean star‑schema model (Customers, Invoices, Date) to support retention and revenue analytics.
+
+-Applied relationship management and data‑type optimization for efficient reporting.
+
+DAX & KPI Development
+-Built core business metrics including Retention Rate, Churn Rate, ARPC, and Customer Lifetime Value.
+
+-Used time‑intelligence functions and filter‑context logic to create accurate period comparisons.
+
+SQL for Data Preparation
+-Wrote queries for joins, aggregations, and business‑logic transformations.
+
+-Cleaned and structured raw customer and invoice data for downstream modeling.
+
+Dashboard Design & Visualization
+-Created a modern, insight‑driven Power BI dashboard with clear KPIs and intuitive navigation.
+
+-Applied consistent color themes, layout structure, and visual hierarchy for readability.
+
+Analytical Storytelling
+-Translated raw data into actionable insights around customer behavior, retention patterns, and revenue trends.
+
+-Highlighted business implications and opportunities for improvement.
+
+Version Control & Documentation
+-Organized project assets into a professional GitHub structure.
+
+-Documented KPIs, data model decisions, and dashboard visuals for transparency and clarity.
+
