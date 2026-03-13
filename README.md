@@ -65,7 +65,7 @@ Customers (1) → Invoices (many)
 Date (1) → Invoices (many)
 
 
-
+**Dashboard Preview**
 
 
 ![Dashboard Screenshot](https://github.com/mandiedunwoody-lgtm/mandie-analytics-portfolio/blob/1b715a2c51fe4773cd05d23431de3e8c30b3a967/sql-projects/powerbi-projects/powerbi-projects/Screenshot%202026-03-13%20180748.png?raw=true)
@@ -76,4 +76,6 @@ Date (1) → Invoices (many)
 
 
 
+**Project Summary**
 
+This project demonstrates a full customer‑retention analysis workflow, combining SQL for data preparation and Power BI for modeling, DAX calculations, and interactive dashboard design. The final report highlights key customer metrics—including retention, churn, revenue behavior, and purchasing patterns—to support data‑driven decision‑making. This work showcases my ability to build clean data models, define meaningful KPIs, and design clear, modern dashboards that communicate insights effectively.
