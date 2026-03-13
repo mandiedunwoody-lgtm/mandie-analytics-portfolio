@@ -63,11 +63,11 @@ Customers (1) → Invoices (many)
 Date (1) → Invoices (many)
 
 
-(https://github.com/mandiedunwoody-lgtm/mandie-analytics-portfolio/blob/1b715a2c51fe4773cd05d23431de3e8c30b3a967/sql-projects/powerbi-projects/powerbi-projects/Screenshot%202026-03-13%20180748.png?raw=true)
+![Dashboard Screenshot](https://github.com/mandiedunwoody-lgtm/mandie-analytics-portfolio/blob/1b715a2c51fe4773cd05d23431de3e8c30b3a967/sql-projects/powerbi-projects/powerbi-projects/Screenshot%202026-03-13%20180748.png?raw=true)
 
-https://raw.githubusercontent.com/mandiedunwoody-lgtm/mandie-analytics-portfolio/1b715a2c51fe4773cd05d23431de3e8c30b3a967/sql-projects/powerbi-projects/powerbi-projects/Screenshot%202026-03-13%20181246.png
+![Dashboard Screenshot](https://raw.githubusercontent.com/mandiedunwoody-lgtm/mandie-analytics-portfolio/1b715a2c51fe4773cd05d23431de3e8c30b3a967/sql-projects/powerbi-projects/powerbi-projects/Screenshot%202026-03-13%20181246.png)
 
-https://raw.githubusercontent.com/mandiedunwoody-lgtm/mandie-analytics-portfolio/1b715a2c51fe4773cd05d23431de3e8c30b3a967/sql-projects/powerbi-projects/powerbi-projects/Screenshot%202026-03-13%20181329.png
+![Dashboard Screenshot](https://raw.githubusercontent.com/mandiedunwoody-lgtm/mandie-analytics-portfolio/1b715a2c51fe4773cd05d23431de3e8c30b3a967/sql-projects/powerbi-projects/powerbi-projects/Screenshot%202026-03-13%20181329.png)
 
 
 
