@@ -63,7 +63,7 @@ Customers (1) → Invoices (many)
 Date (1) → Invoices (many)
 
 
-[A diagram of the model will be added once the Power BI dashboard is finalized.](https://github.com/mandiedunwoody-lgtm/mandie-analytics-portfolio/blob/1b715a2c51fe4773cd05d23431de3e8c30b3a967/sql-projects/powerbi-projects/powerbi-projects/Screenshot%202026-03-13%20180748.png?raw=true)
+(https://github.com/mandiedunwoody-lgtm/mandie-analytics-portfolio/blob/1b715a2c51fe4773cd05d23431de3e8c30b3a967/sql-projects/powerbi-projects/powerbi-projects/Screenshot%202026-03-13%20180748.png?raw=true)
 
 https://raw.githubusercontent.com/mandiedunwoody-lgtm/mandie-analytics-portfolio/1b715a2c51fe4773cd05d23431de3e8c30b3a967/sql-projects/powerbi-projects/powerbi-projects/Screenshot%202026-03-13%20181246.png
 
@@ -71,8 +71,6 @@ https://raw.githubusercontent.com/mandiedunwoody-lgtm/mandie-analytics-portfolio
 
 
 
-Dashboard Preview
-Screenshots coming soon.
 
 
 Customer Lifetime Value (simple)  
