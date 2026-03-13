@@ -107,3 +107,23 @@ This project demonstrates a full customer‑retention analysis workflow, combini
 -Organized project assets into a professional GitHub structure.
 -Documented KPIs, data model decisions, and dashboard visuals for transparency and clarity.
 
+
+**Future Enhancements**
+
+**Add Customer Segmentation**  
+Introduce clustering or rule‑based segmentation (e.g., high‑value, at‑risk, new customers) to deepen behavioral insights.
+
+**Incorporate Predictive Modeling**  
+Use machine learning or statistical methods to forecast churn probability and customer lifetime value.
+
+**Expand Revenue Metrics**  
+Include cohort‑based revenue tracking, repeat purchase frequency, and contribution margin analysis.
+
+**Enhance Dashboard Interactivity**  
+Add drill‑through pages, tooltips, and dynamic navigation to improve user exploration and insight discovery.
+
+**Automate Data Refresh**  
+Connect to a live database or scheduled data pipeline to keep retention metrics continuously updated.
+
+**Add Benchmarking & Targets**  
+Introduce goal lines, thresholds, or industry benchmarks to contextualize performance.
