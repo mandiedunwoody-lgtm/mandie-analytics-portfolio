@@ -1,0 +1,38 @@
+# SQL Projects
+
+This folder contains SQL queries that demonstrate my ability to work with structured data, perform analytical transformations, and generate business-ready insights. Each file highlights a different analytical technique or business question.
+
+---
+
+## Month-Over-Month Analysis
+
+**File:** `month_over_month_analysis.sql`  
+**Purpose:** Compare total revenue for the current month vs. the previous month.
+
+### What this query demonstrates:
+- Use of **CTEs** for clean query structure  
+- **Date truncation** to aggregate by month  
+- **Window functions** (`LAG`) to compare periods  
+- **Safe division** using `NULLIF`  
+- **KPI calculation** (absolute and percentage change)
+
+### Business value:
+Month-over-month analysis helps identify trends, seasonality, and performance shifts. It’s commonly used in:
+- Revenue tracking  
+- User activity monitoring  
+- Retention and churn analysis  
+- Operational performance reviews  
+
+---
+
+## Future Additions
+
+I plan to expand this folder with:
+- Retention and churn SQL logic  
+- Customer segmentation queries  
+- Operational performance metrics  
+- Data cleaning and transformation examples  
+
+---
+
+If you'd like to explore the SQL or see how it connects to dashboards or analysis, feel free to browse the files in this directory.
