@@ -139,33 +139,28 @@ If you'd like to explore the SQL or see how it connects to dashboards or analysi
 
 ---
 
-┌───────────────────────┐           ┌────────────────────────┐
-│       customers       │ 1     ∞   │        invoices        │
-├───────────────────────┤───────────┤────────────────────────┤
-│ customer_id (PK)      │           │ invoice_id (PK)        │
-│ first_name            │           │ customer_id (FK)       │
-│ last_name             │           │ invoice_date           │
-│ email                 │           │ amount                 │
-│ country               │           │ status                 │
-│ segment               │           └────────────────────────┘
-│ signup_date           │
-└───────────────────────┘
+```text
+customers        1 ─── ∞        invoices
+customer_id (PK)              invoice_id (PK)
+first_name                    customer_id (FK)
+last_name                     invoice_date
+email                         amount
+country                       status
+segment
+signup_date
 
-                 ▼ (LEFT JOIN)
+LEFT JOIN → final_customer_invoices
+customer_id
+customer_name (derived)
+country
+segment
+signup_date
+invoice_id
+invoice_date
+amount
+status
+```
 
-┌────────────────────────────────────────────────────────────┐
-│               final_customer_invoices                      │
-├────────────────────────────────────────────────────────────┤
-│ invoice_id (PK)                                            │
-│ customer_id                                                │
-│ customer_name (derived)                                    │
-│ country                                                    │
-│ segment                                                    │
-│ signup_date                                                │
-│ invoice_date                                               │
-│ amount                                                     │
-│ status                                                     │
-└────────────────────────────────────────────────────────────┘
 
 # ERD Overview
 The data model follows a standard customer → invoice relationship:
@@ -182,7 +177,12 @@ The data model follows a standard customer → invoice relationship:
 -Dashboarding in Power BI or Tableau
 
 
-![Customer Invoice ERD](docs/erd_customer_invoices.png)
+Here is the ERD:
+
+![Customer Invoice ERD](erd_customer_invoices.png)
+
+This is the next section.
+
 
 
 
