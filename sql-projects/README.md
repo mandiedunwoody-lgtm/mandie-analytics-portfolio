@@ -180,7 +180,8 @@ The data model follows a standard customer → invoice relationship:
 Here is the ERD:
 
 
-![Customer Invoice ERD](/sql-projects/erd_customer_invoices.png)
+![Customer Invoice ERD](../erd_customer_invoices.png)
+
 
 
 This is the next section.
