@@ -159,5 +159,6 @@ The data model follows a standard customer → invoice relationship:
 -Dashboarding in Power BI or Tableau
 
 
-![Customer Invoice ERD](docs/erd_customer_invoices.png)
+![Customer Invoice ERD](../erd_customer_invoices.png)
+
 
