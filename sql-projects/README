@@ -157,3 +157,6 @@ The data model follows a standard customer → invoice relationship:
 -Retention and churn modeling
 -Month‑over‑month performance tracking
 -Dashboarding in Power BI or Tableau
+
+
+![Customer Invoice ERD](docs/erd_customer_invoices.png)
