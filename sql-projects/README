@@ -35,4 +35,45 @@ I plan to expand this folder with:
 
 ---
 
+**Customer Invoice Join**
+(this is the new section you paste in)
+
+File: customer_invoice_join.sql  
+Purpose: Combine customer and invoice data into a single, analysis‑ready table.
+
+**What this query demonstrates:**
+A practical LEFT JOIN between two related tables
+-Creating a clean, enriched dataset
+-Basic data transformation (full customer name, segment, country)
+-Real‑world SQL used in reporting, dashboards, and product analytics
+
+**Business value:**
+This type of join is used constantly in analytics. It lets you connect customer attributes with financial or behavioral data so you can analyze:
+-Customer value
+-Purchase patterns
+-Segment performance
+-Retention and churn indicators
+
+
+-- Join invoices with customer details
+CREATE TABLE final_customer_invoices AS
+SELECT
+    i.invoice_id,
+    i.customer_id,
+    c.first_name || ' ' || c.last_name AS customer_name,
+    c.country,
+    c.segment,
+    c.signup_date,
+    i.invoice_date,
+    i.amount,
+    i.status
+FROM invoices AS i
+LEFT JOIN customers AS c
+    ON i.customer_id = c.customer_id;
+
+-- Preview the first 10 rows
+SELECT * FROM final_customer_invoices
+LIMIT 10;
+
+
 If you'd like to explore the SQL or see how it connects to dashboards or analysis, feel free to browse the files in this directory.
